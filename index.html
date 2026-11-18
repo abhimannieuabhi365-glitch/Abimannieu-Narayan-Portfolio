@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Abimannieu Narayan | Full Stack Developer</title>
+    <title>Abimannieu Narayan | Python & Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Abimannieu Narayan, a BCA graduate building Python, full-stack and AI-powered applications." />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -51,7 +52,7 @@
         </nav>
 
 
-        <a href="resume.pdf" class="resume-btn" target="_blank">
+        <a href="resume.pdf" class="resume-btn" target="_blank" rel="noopener">
             Resume
             <span>↗</span>
         </a>
@@ -118,11 +119,10 @@
 
             <p class="hero-description">
 
-                BCA graduate passionate about building practical
-                software applications that solve real-world problems.
-                I specialize in
-                <strong>Python, Django, MySQL</strong>
-                and modern web technologies.
+                BCA graduate interested in building practical web and AI-powered
+                applications. I work with
+                <strong>Python, FastAPI, Django, PostgreSQL and RAG systems</strong>,
+                alongside modern frontend technologies.
 
             </p>
 
@@ -140,7 +140,8 @@
 
                 <a href="resume.pdf"
                    class="btn btn-outline"
-                   target="_blank">
+                   target="_blank"
+                   rel="noopener">
 
                     Download Resume
 
@@ -160,7 +161,7 @@
                 <div class="social-links">
 
                     <a
-                        href="https://www.linkedin.com/in/abimannieu-narayan-88a9532b4"
+                        href="https://www.linkedin.com/in/abimannieu-narayan"
                         target="_blank"
                         rel="noopener"
                         aria-label="LinkedIn">
@@ -333,8 +334,9 @@
                 <div class="mini-social">
 
                     <a
-                        href="https://www.linkedin.com/in/abimannieu-narayan-88a9532b4"
-                        target="_blank">
+                        href="https://www.linkedin.com/in/abimannieu-narayan"
+                        target="_blank"
+                        rel="noopener noreferrer">
 
                         LinkedIn
 
@@ -371,7 +373,7 @@
 
             <div>
 
-                <strong>01</strong>
+                <strong>02</strong>
 
                 <p>Featured Projects</p>
 
@@ -382,23 +384,7 @@
         </div>
 
 
-        <div class="stat reveal-item">
-
-            <div class="stat-icon">
-                ◫
-            </div>
-
-            <div>
-
-                <strong>10+</strong>
-
-                <p>Technologies Used</p>
-
-                <span></span>
-
-            </div>
-
-        </div>
+        
 
 
         <div class="stat reveal-item">
@@ -409,9 +395,9 @@
 
             <div>
 
-                <strong>100%</strong>
+                <strong>02</strong>
 
-                <p>Dedication</p>
+                <p>Real RAG Integration Tests</p>
 
                 <span></span>
 
@@ -478,18 +464,19 @@
 
             <p class="about-large">
 
-                I am a BCA graduate with a strong foundation
-                in full-stack development and software engineering.
+                I am a BCA graduate focused on backend development,
+                full-stack applications and practical AI integration.
 
             </p>
 
             <p>
 
-                My main project is a certificate authentication
-                system using QR-code verification and facial
-                recognition. I enjoy working across both frontend
-                and backend technologies and building applications
-                that solve real-world problems.
+                I have built Ask My Docs, a document question-answering
+                application using Retrieval-Augmented Generation (RAG), and
+                Secure ID Using QR, a certificate authentication system with
+                QR verification and facial recognition. I enjoy connecting
+                backend services, databases and user-facing features to build
+                useful software.
 
             </p>
 
@@ -505,17 +492,17 @@
 
             <div>
                 <span>BACKEND</span>
-                <strong>Python & Django</strong>
+                <strong>Python, FastAPI &amp; Django</strong>
             </div>
 
             <div>
                 <span>DATABASE</span>
-                <strong>MySQL</strong>
+                <strong>PostgreSQL &amp; MySQL</strong>
             </div>
 
             <div>
                 <span>INTEREST</span>
-                <strong>Software Development</strong>
+                <strong>AI &amp; Full Stack Development</strong>
             </div>
 
         </div>
@@ -545,6 +532,129 @@
     </div>
 
 
+    <!-- FLAGSHIP PROJECT: ASK MY DOCS -->
+    <article class="project-card project-card-featured reveal-item">
+
+        <div class="project-header">
+            <div>
+                <p class="project-number">PROJECT 01 · FLAGSHIP</p>
+                <h3>Ask My Docs</h3>
+                <p class="project-type">AI-Powered Document Question Answering · Retrieval-Augmented Generation (RAG)</p>
+            </div>
+            <span class="project-status">COMPLETED CORE BUILD</span>
+        </div>
+
+        <div class="project-content">
+
+            <div class="project-description">
+                <p>
+                    A document question-answering application that lets users upload PDF and DOCX files,
+                    retrieve relevant passages through semantic search, and ask questions about their
+                    documents. The backend combines document parsing, sentence-aware chunking, embeddings,
+                    Qdrant vector retrieval and locally hosted Ollama answer generation.
+                </p>
+
+                <div class="technology-list">
+                    <span>Python</span>
+                    <span>FastAPI</span>
+                    <span>React</span>
+                    <span>PostgreSQL</span>
+                    <span>SQLAlchemy</span>
+                    <span>Qdrant</span>
+                    <span>Sentence Transformers</span>
+                    <span>Ollama</span>
+                    <span>PyMuPDF</span>
+                    <span>python-docx</span>
+                    <span>Pytest</span>
+                </div>
+            </div>
+
+            <div class="project-features">
+                <div>
+                    <span>01</span>
+                    <div>
+                        <strong>Document Ingestion</strong>
+                        <p>PDF and DOCX text extraction, table handling and OCR fallback for scanned PDF pages.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <div>
+                        <strong>Semantic Retrieval</strong>
+                        <p>Sentence Transformer embeddings, Qdrant vector search, document filters and adjacent-chunk retrieval.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <div>
+                        <strong>Grounded Answer Generation</strong>
+                        <p>Ollama with Llama 3.2 generates answers from retrieved document context.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <span>04</span>
+                    <div>
+                        <strong>Source Citations</strong>
+                        <p>Stable document/chunk references and evidence-based citation alignment.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <span>05</span>
+                    <div>
+                        <strong>Document Lifecycle</strong>
+                        <p>SHA-256 duplicate detection, background processing, retry and safe reprocessing.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <span>06</span>
+                    <div>
+                        <strong>Automated Testing</strong>
+                        <p>137 passing automated tests and two separately verified live RAG integration tests.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-architecture">
+                <p class="architecture-label">// RAG PIPELINE</p>
+                <div class="architecture-flow" aria-label="Document upload, extraction, chunking, embeddings, Qdrant retrieval and answer generation">
+                    <div class="architecture-step"><span>01</span><strong>Upload</strong><small>PDF / DOCX</small></div>
+                    <span class="architecture-arrow" aria-hidden="true">→</span>
+                    <div class="architecture-step"><span>02</span><strong>Extract</strong><small>Text & tables</small></div>
+                    <span class="architecture-arrow" aria-hidden="true">→</span>
+                    <div class="architecture-step"><span>03</span><strong>Chunk</strong><small>Sentence-aware</small></div>
+                    <span class="architecture-arrow" aria-hidden="true">→</span>
+                    <div class="architecture-step"><span>04</span><strong>Embed</strong><small>Vectors</small></div>
+                    <span class="architecture-arrow" aria-hidden="true">→</span>
+                    <div class="architecture-step"><span>05</span><strong>Retrieve</strong><small>Qdrant</small></div>
+                    <span class="architecture-arrow" aria-hidden="true">→</span>
+                    <div class="architecture-step"><span>06</span><strong>Answer</strong><small>Ollama + citations</small></div>
+                </div>
+            </div>
+
+            <div class="project-proof">
+                <div>
+                    <strong>137</strong>
+                    <span>Automated tests passing</span>
+                </div>
+                <div>
+                    <strong>2 / 2</strong>
+                    <span>Real integration tests passed</span>
+                </div>
+                <div>
+                    <strong>Local</strong>
+                    <span>Ollama model inference</span>
+                </div>
+            </div>
+
+        </div>
+    </article>
+
+
     <article class="project-card reveal-item">
 
 
@@ -553,7 +663,7 @@
             <div>
 
                 <p class="project-number">
-                    PROJECT 01
+                    PROJECT 02
                 </p>
 
                 <h3>
@@ -604,8 +714,6 @@
                     <span>CSS</span>
                     <span>JavaScript</span>
                     <span>Bootstrap</span>
-                    <span>Flutter</span>
-                    <span>Dart</span>
                     <span>OpenCV</span>
 
                 </div>
@@ -678,8 +786,8 @@
                         <strong>Responsive Interface</strong>
 
                         <p>
-                            Frontend built using modern
-                            web technologies and Flutter.
+                            Web interface built using HTML, CSS,
+                            JavaScript and Bootstrap.
                         </p>
 
                     </div>
@@ -717,85 +825,34 @@
 
     <div class="skills-grid">
 
-
         <div class="skill-card reveal-item">
-
             <span>01</span>
-
             <h3>Languages</h3>
-
-            <p>
-                Java, C++, Python, JavaScript, SQL
-            </p>
-
+            <p>Python, Java, C++, JavaScript, SQL</p>
         </div>
 
-
         <div class="skill-card reveal-item">
-
             <span>02</span>
-
             <h3>Frontend</h3>
-
-            <p>
-                HTML, CSS, JavaScript, Bootstrap,
-                Flutter, Dart
-            </p>
-
+            <p>HTML, CSS, JavaScript, Bootstrap, React</p>
         </div>
 
-
         <div class="skill-card reveal-item">
-
-    <span>03</span>
-
-    <h3>Backend &amp; Database</h3>
-
-    <p>
-        Python, Django, MySQL
-    </p>
-
-</div>
-
-        <div class="skill-card reveal-item">
-
-            <span>04</span>
-
-            <h3>Computer Vision</h3>
-
-            <p>
-                OpenCV, Face Recognition
-            </p>
-
+            <span>03</span>
+            <h3>Backend &amp; Databases</h3>
+            <p>FastAPI, Django, PostgreSQL, MySQL</p>
         </div>
 
-
         <div class="skill-card reveal-item">
-
             <span>05</span>
-
-            <h3>Tools & Version Control</h3>
-
-            <p>
-                Git, GitHub, PyCharm, VS Code,
-                Android Studio
-            </p>
-
+            <h3>Tools &amp; Testing</h3>
+            <p>Git, GitHub, Docker, VS Code, PyCharm, Pytest</p>
         </div>
 
-
         <div class="skill-card reveal-item">
-
             <span>06</span>
-
             <h3>Core Concepts</h3>
-
-            <p>
-                Data Structures & Algorithms,
-                OOP, DBMS, Operating Systems,
-                Software Engineering
-            </p>
-
+            <p>OOP, DBMS, REST APIs, Document Processing</p>
         </div>
 
     </div>
@@ -1021,8 +1078,9 @@
 
 
             <a
-                href="https://www.linkedin.com/in/abimannieu-narayan-88a9532b4"
-                target="_blank">
+                href="https://www.linkedin.com/in/abimannieu-narayan"
+                target="_blank"
+                rel="noopener noreferrer">
 
                 <span>LINKEDIN</span>
 
@@ -1068,7 +1126,7 @@
         <strong>AN</strong>
 
         <p>
-            © 2026 Abimannieu Narayan
+            © <span id="currentYear">2026</span> Abimannieu Narayan
         </p>
 
     </div>

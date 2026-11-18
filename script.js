@@ -7,9 +7,12 @@ const navLinks = document.getElementById("navLinks");
 
 if (menuBtn && navLinks) {
 
+    menuBtn.setAttribute("aria-expanded", "false");
+
     menuBtn.addEventListener("click", () => {
 
-        navLinks.classList.toggle("open");
+        const isOpen = navLinks.classList.toggle("open");
+        menuBtn.setAttribute("aria-expanded", String(isOpen));
 
     });
 
@@ -19,6 +22,7 @@ if (menuBtn && navLinks) {
         link.addEventListener("click", () => {
 
             navLinks.classList.remove("open");
+            menuBtn.setAttribute("aria-expanded", "false");
 
         });
 
@@ -206,3 +210,13 @@ document.querySelectorAll(
     });
 
 });
+
+/* =========================================================
+   CURRENT FOOTER YEAR
+========================================================= */
+
+const currentYear = document.getElementById("currentYear");
+
+if (currentYear) {
+    currentYear.textContent = new Date().getFullYear();
+}
